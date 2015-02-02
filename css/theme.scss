@@ -25,19 +25,18 @@ html, body{
 }
 #wrapper {
   min-height:100%;
-  position:relative;
+  //margin-bottom:-130px;
 }
 .page-content{
-  padding-bottom:60px;
+  //padding-bottom:130px;
 }
-footer{
+#site-footer{
   background-color:#f8f8f8;
   border-color:#e7e7e7;
   padding-top:30px;
   padding-bottom:30px;
-  height:60px;
-  position:absolute;
-  bottom:0;
-  left:0;
+}
+footer{
   width:100%;
+  position: relative;
 }
