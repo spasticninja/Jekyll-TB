@@ -41,6 +41,14 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.facebook_pageid %}
+          <li>
+            <a href="https://facebook.com/{{ site.facebook_pageid }}">
+              <i class="fa fa-facebook-official" style="color:#828282;"></i> <span class="username">{{ site.facebook_pageid }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
@@ -50,5 +58,8 @@
     </div>
 
   </div>
+</div>
 
-</footer>
+<!-- Javascript Libraries -->
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
