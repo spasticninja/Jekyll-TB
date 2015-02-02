@@ -49,6 +49,14 @@
             </a>
           </li>
           {% endif %}
+
+          {% if site.google_username %}
+          <li>
+            <a href="https://plus.google.com/{{ site.facebook_pageid }}">
+              <i class="fa fa-google-plus" style="color:#828282;"></i> <span class="username">{{ site.google_username }}</span>
+            </a>
+          </li>
+          {% endif %}
         </ul>
       </div>
 
