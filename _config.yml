@@ -16,3 +16,6 @@ google_username: +Fancykrakenstudios #please be sure to include the '+' before y
 
 # Build settings
 markdown: kramdown
+
+# Google Analytics
+google_analytics: UA-00000000-0 #This is the Tracking ID starting with UA-
